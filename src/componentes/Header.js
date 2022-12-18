@@ -8,11 +8,7 @@ const Header = () => {
     const cerrarSesion = () => {
         localStorage.removeItem("token");
         navigate("/");
-
-
     }
-
-   
     return (
         <header className="bg-white text-blue-400 m-5 p-5 border-b rounded-md">
             <div className="md:flex md:justify-between">
